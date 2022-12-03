@@ -1,0 +1,65 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar show-clear-button="focus"></ion-searchbar>
+ <br>
+  <ion-list>
+    <ion-item role="article">
+      <ion-card color="success">
+        <img alt="hamburguesa" src="https://sonorastar.com/wp-content/uploads/2020/10/dulces-mexicanos-2.jpg" />
+        <ion-card-header>
+          <ion-card-title>Hamburguesa sencilla de res o pollo con papas</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-item>
+
+    <ion-item role="article">
+      <ion-card color="success">
+        <img alt="burritos" src="https://i.blogs.es/0a03d9/como-hacer-hamburguesas-caseras-con-tocino-y-salsa-bbq-2-/1366_2000.jpg" />
+        <ion-card-header>
+          <ion-card-title>Burritos de picadillo o asada</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-item>
+
+    <ion-item role="article">
+      <ion-card color="success">
+        <img alt="Tortas" src="https://catalogogrupero.com/wp-content/uploads/2022/03/PALOMITAS-800x445.jpg" />
+        <ion-card-header>
+          <ion-card-title>Tortas de pierna y pollo</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-item>
+
+    <ion-item role="article">
+      <ion-card color="success">
+        <img alt="Pays" src="https://fisair.com/wp-content/uploads/2018/01/fotoss.jpg" />
+        <ion-card-header>
+          <ion-card-title>Pay de limon, fresa y Guayaba</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-item>
+   
+  </ion-list>
+  <ion-infinite-scroll>
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button color="dark" slot="start" href="/inicio" fill="clear">
+    <ion-icon name="home"></ion-icon>
+  </ion-button>
+    <div class="centrar-boton-ionic"> 
+      <ion-button color="dark" href="/categorias" fill="clear">
+    <ion-icon name="search-circle-outline"></ion-icon>
+    </ion-button>
+    </div>
+    <ion-button color="dark" slot="end" href="menu" fill="clear">
+    <ion-icon name="person-circle-outline"></ion-icon>
+  </ion-button>
+  </ion-toolbar>
+</ion-footer>
+
